@@ -3,7 +3,8 @@ var express = require("express");
 var routes = require("./routes");
 //mongoose
 var mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost/mongoScraperHomework", { useNewUrlParser: true });
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoScraperHomework"
+mongoose.connect(MONGODB_URI);
 
 //needed for handlebars
 var exphbs = require("express-handlebars");
