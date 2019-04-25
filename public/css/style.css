@@ -1,0 +1,50 @@
+#scrapeButton {
+    background: #17252A;
+    color: white;
+    border-color: white;
+}
+#clear {
+    background: #17252A;
+    color: white;
+    border-color: white;
+}
+#navbarNav{
+    padding: 0px 0px 0px 550px;
+}
+body {
+    background: white;
+}
+
+#navbar {
+    background: #3AAFA9;
+    height: 200px;
+    overflow: auto;
+  
+
+    /* #17252A
+    #DEF2F1 */
+}
+
+#header {
+    font-size: 40px;
+    font-weight: 5;
+}
+
+.nav-item {
+    float: right;
+}
+
+#articles {
+    padding: 50px 75px 0px 75px;
+    margin: auto;
+}
+h4 {
+    background: #DEF2F1;
+    height: 35px;
+}
+
+#saveArticle {
+    background: #17252A;
+    color: white;
+    border-color: white;
+}
